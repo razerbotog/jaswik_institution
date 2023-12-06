@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Poppins&display=swap');
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    border: none;
+}
+.container-fluid{
+    width: 100vw;
+/*    min-height: 100vh;*/
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border: none;
+    background-color: #f5f5f5;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+.become{
+    height:400px;
+    width:200px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+/*    left: 100px;*/
+    /* background-color:#fdc632; */
+    /* box-shadow: 1px 10px 10px darkgray; */
+
+}
+
+
+
+.title{
+    height:80vh;
+    width: 100vw;
+
+    background-image:url("./components/images/banner3nw.jpg");
+    background-size: cover;
+    background-position:center;
+    object-fit: cover;
+    z-index:1;
+  
+}
+/*.pallete{
+    height:410px;
+    width: 100px;
+    z-index: -100;
+    position: absolute;
+    top:80px;
+    left:15%;
+    background-color:#fdc632 ;
+}*/
+.missions h4 {
+  
+    background-color: white;
+}
+.missions {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px grey;
+    margin-top: 20px;
+    
+}
+::-webkit-scrollbar{
+display: none;
+}
+hr{
+    background-color: #F9A424;
+}
+.mission-card{
+/*    height:270px;*/
+    text-transform: uppercase;
+   
+}
+.info{
+    background-color:#fdc632;
+    
+}
+.section-3 .info h6{
+font-weight: 300;
+}
+.mission-row{
+    margin-top:220px;
+}
+.section-3 .row-3 .info span{
+    font-size:larger;
+}
+.contact{
+    height:460px;
+    border-right: 2px solid black;
+}
+
+.section-4{
+    margin-top: 3rem;
+}
+.section-4 .row{
+    padding-top: 3rem;
+}
+.contact-2{
+    padding-right:3rem;
+}
+
+
+@media screen and (max-width:767px){
+.become{
+    margin-top: 10px;
+    margin-left: 0px;
+    height:70vh;
+}
+.contact h1{
+    padding-top: 0px;
+}
+.section-4{
+    margin:10px;
+}
+.section-4 .row{
+
+    padding-top:0;
+}
+.contact .text-start{
+    text-align: center;
+}
+.contact{
+    border: none;
+}
+.contact-2{
+    padding-right: 0px;
+}
+.contact-2{
+    border: none;
+}
+}
+@media screen and (max-width:575px){
+    .become{
+        height: 50vh;
+        margin-top: auto;
+    }
+}
+
+
+

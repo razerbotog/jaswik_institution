@@ -1,0 +1,125 @@
+/*swiper*/
+@media (max-width: 1030px){
+        .swiper-slide img{
+            height: 50%;
+        }
+        .swiper {
+          height: 50vh;
+        }
+
+    }
+    @media (max-width: 991px){
+        .swiper-slide img{
+            height: 48%;
+        }
+        .swiper {
+          height: 45vh;
+        }
+        
+    }
+
+    @media (max-width: 768px){
+        .swiper-slide img{
+            height: 45%;
+        }
+        .swiper {
+          height: 45vh;
+        }
+       
+    }
+
+    @media (max-width: 390px){
+        .swiper-slide img{
+            height: 50%;
+        }
+        .swiper {
+          height: 20vh;
+        }
+       
+    }
+
+
+    /* container start */
+    @media screen and (max-width:1030px){
+	
+    }
+    @media screen and (max-width:991px){
+       .navbar-toggler{
+         display: none;
+       }
+       .sidebar{
+         display: inline-block;
+       }
+       .circle-4{
+         margin-top:20px;
+       }
+       .signup-img{
+         margin-top:100px;
+         border-radius: 20px;
+       }
+       .btn-enroll{
+         display: none;
+    
+       }
+       .btn-enroll2{
+         display: inline-block;
+       }
+      
+       
+    }
+    @media screen and (max-width:767px){
+      .phone{
+    /*		align-items: center;/*/
+    text-align: center;
+        display:none;
+    
+      }
+      
+      .email{
+        display:none;
+        align-items: center;
+      }
+      .user{
+        display: none;
+      }
+      #signup .form-signup{
+         width: 400px;
+         margin:0 auto;
+      }
+      .signup-img{
+        display: none;
+      }
+      .circle-3{
+        margin-top:20px;
+      }
+      .circle{
+        margin-right:10px ;
+      }
+      .offcanvas-body{
+        display: block;
+       }
+    }
+    
+    @media only screen and (min-width: 992px) {
+      .dd:hover .dm {
+        display: flex;
+      }
+      .dm.show {
+        display: flex;
+      }
+      }
+    
+      @media only screen and (min-width: 992px) and (max-width: 1140px) {
+      .dd:hover .dm {
+        width: 40vw;
+        flex-wrap: wrap;
+      }
+      }
+      @media only screen and (max-width: 992px) {
+      .dm.show {
+        flex-wrap: wrap;
+        max-height:250px;
+        overflow-y: scroll;
+      }
+      }
+     /* container end */
